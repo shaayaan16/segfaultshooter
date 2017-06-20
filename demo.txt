@@ -1,0 +1,76 @@
+http://kief.com/the-conflict-between-continuous-delivery-and-traditional-agile.html
+
+
+http://www.specialmoves.com/research-and-development/articles/jenkins-and-continuous-integration.html    very very good
+
+https://blog.codeship.com/why-docker/    very very good
+
+http://rancher.com/docker-based-build-pipelines-part-1-continuous-integration-and-testing/
+
+https://docs.docker.com/engine/   basic advantages of docker las tslide
+
+Agile introduces the idea that the team should get their software ready for release throughout development. Many variations of agile (which I refer to as Ågtraditional agileÅh in this post) believe this should be done at periodic intervals.
+Continuous Delivery is another subset of agile which in which the team keeps its software ready for release at all times during development. It is different from ÅgtraditionalÅh agile in that it does not involve stopping and making a special effort to create a releasable build.
+
+
+CD is about moving away from making the software ready as a separate activity, and instead developing in a way that means the software is always ready for release.
+
+
+
+DevOps is the practice of operations and development engineers participating together in the entire service lifecycle, from design through the development process to production support.
+
+Devops is a practise not only a tool
+
+
+
+Jenkins is a continuous integration (CI) and continuous delivery (CD) solution. The idea of CI is to merge code from individual developers into a project multiple times per day and test continuously to avoid downstream problems. CD takes this a step further to ensure that all merged code is always in a production-ready state. Jenkins enables developers to automate this process as much as possible -- up to the point of deployment. 
+
+We call it Ågthe pipeline.Åh ItÅfs really this series of steps. It could be five steps, or it could be 50 steps.
+
+Jenkins serves as the workflow engine to manage this CI/CD pipeline from source to delivery, Labourey says, but along the way many different tools may be called upon to perform different functions.
+
+ Everyone knows that Docker streamlines development and makes deployment vastly easier, but Labourey observes that it also helps keep developers honest: They can no longer blame some misconfiguration of the development environment when a build crashes and burns.
+
+
+
+"ItÅfs interesting if you get 10 percent more efficiency; if you spend $100 million a year in IT, well great -- you have $10 million you can spend somewhere else," says Labourey. "But the real benefit is when the business realizes that by leveraging those tools and that way of doing things, they can increase sales by 10 percent." 
+
+jENKINS IS A CONTINUOUS INTEGRATION SERVER WHICH WHEN USED WITH SOME OTHER TOOLS CAN AUTOMATE THE PROCESS OF BUILDING,PACKAGING, TESTING AND DEPLOYING.
+
+
+The Jenkins CI (thatÅfs its proper name) website describes it as Ågan award-winning application that monitors executions of repeated jobs, such as building a software project or jobs run by cron.Åh
+
+This fits into Continuous Integration (CI) because Jenkins is constantly building and deploying the project. i.e. the dev site has all of everyoneÅfs committed code continually integrated into it. 
+
+
+Create full pipelines from dev to live, passing a single build along that pipeline.
+
+Having better data migration. Currently thereÅfs still a manual aspect to our database handling which causes blockages in the pipeline.
+
+
+
+
+https://blog.codeship.com/why-docker/
+Getting down to the nuts and bolts, Docker allows applications to be isolated into containers with instructions for exactly what they need to survive that can be easily ported from machine to machine.
+
+If you have 30 Docker containers that you want to run, you can run them all on a single virtual machine. To run 30 virtual machines, youÅfve got to boot 30 operating systems with at least minimum resource requirements available before factoring the hypervisor for them to run on with the base OS.
+
+Docker Enables Consistent Environments
+
+
+
+While Docker has a more simplified structure compared to both of these, the real area where it causes disruption is resource efficiency.
+
+
+Docker 
+at share the kernel of the host operating system. The result is something that feels like a virtual machine, but sheds all the weight and startup overhead of a guest operating system.
+
+
+
+
+Another reason why Docker is so disruptive is portability. WeÅfve mostly discussed cloud providers to this point, but using the earlier illustration of needing 30 containers to run versus 30 virtual machinesÅc consider your development machine.
+With the explosion of microservices on the development scene, there is a very good chance that doing development on your laptop will involve starting several of these services at the same time in order to work. Vagrant helped with this on a per VM basis, but if I need to start four or five different microservices to work locally, that means running four or five virtual machines on my laptop on top of everything else that I need to work. With Docker, thatÅfs reduced to a much more manageable single VM.
+With the explosion of microservices, @Docker offers what a dev needs: portability.
+
+
+
