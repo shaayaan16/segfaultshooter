@@ -1,0 +1,20 @@
+I will quickly give you a glimpse of what this ppt is all about.
+I will start with the comparison of Software Development Processes.
+Then I will tell you about my mission, my current work progress, my future plans wrt project and finally the expected outcome of the it.
+I will start with the traditional software development process.
+Where :
+Several Developers used to work on a part of a big project.
+Once in a period they would integrate all the code.
+Fix the bugs because of integration.
+Build the code.
+Test it. 
+Release it to the operations team.
+
+As you can see there are a lot of problems with this process.
+
+Slide drwabacks
+To overcome these problems, We can have a Ci/Cd Environment which I will be now talking about.
+Jenkins : The Ci/cd server can help solve those problems :
+If you look at this system, 
+There are 2 developers : Here the developers can commit the code and the labour work is taken care by the Jenkins server.
+
